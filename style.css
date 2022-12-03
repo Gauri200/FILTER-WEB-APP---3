@@ -1,0 +1,23 @@
+h2
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas
+{
+    animation-name: filter;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes filter
+{
+    from{box-shadow: 2px 2px 30px green;}
+    to{box-shadow: 2px 2px 30px yellow;}
+}
